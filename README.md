@@ -71,5 +71,7 @@ Get more comfortable with the `@media at-rules`.
 
 ## Author
 
-- GitHub - [kutu-dev](https://github.com/kutu-dev)
-- Frontend Mentor - [@kutu-dev](https://www.frontendmentor.io/profile/kutu-dev)
+Create with :heart: by [Kutu](https://github.com/kutu-dev).
+
+> - GitHub - [kutu-dev](https://github.com/kutu-dev)
+> - Frontend Mentor - [@kutu-dev](https://www.frontendmentor.io/profile/kutu-dev)
