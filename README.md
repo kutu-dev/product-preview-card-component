@@ -35,18 +35,18 @@ Users should be able to:
 ### Screenshot
 
 #### Desktop
-![](./screenshots/desktop.png)
+![](./assets/screenshots/desktop.png)
 ##### Hover
-![](./screenshots/desktop-hover.png)
+![](./assets/screenshots/desktop-hover.png)
 ##### Focus
-![](./screenshots/desktop-focus.png)
+![](./assets/screenshots/desktop-focus.png)
 
 #### Mobile
-![](./screenshots/mobile.png)
+![](./assets/screenshots/mobile.png)
 ##### Hover
-![](./screenshots/mobile-hover.png)
+![](./assets/screenshots/mobile-hover.png)
 ##### Focus
-![](./screenshots/mobile-focus.png)
+![](./assets/screenshots/mobile-focus.png)
 
 ## My process
 
