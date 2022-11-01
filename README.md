@@ -71,5 +71,5 @@ Get more comfortable with the `@media at-rules`.
 
 ## Author
 
-- GitHub - [Kutu_dev](https://github.com/Kutu-dev)
-- Frontend Mentor - [Kutu](https://www.frontendmentor.io/profile/ZKutury)
+- GitHub - [kutu-dev](https://github.com/kutu-dev)
+- Frontend Mentor - [@kutu-dev](https://www.frontendmentor.io/profile/kutu-dev)
