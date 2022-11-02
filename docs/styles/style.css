@@ -8,6 +8,7 @@
 :root {
   --font-size: 14px;
   --primary-color: hsl(158, 36%, 37%);
+  --primary-color-selected: hsl(158, 36%, 27%);
   --secondary-color: hsl(228, 12%, 48%);
   --darker-secondary-color: hsl(212, 21%, 14%);
   --background-color: hsl(30, 38%, 92%);
@@ -30,7 +31,7 @@ html {
 body {
   background-color: var(--background-color);
   font-family: 'Montserrat', sans-serif;
-  padding: 5%;
+  padding-inline: 5%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,20 +45,36 @@ body {
   flex-wrap: wrap;
 }
 
-.card__img {
-  background-image: url(../images/image-product-mobile.jpg);
-  width: 100%;
-  height: 30vh;
-  background-size: cover;
+@media only screen and (min-width: 1000px) {
+  .card {
+    height: 50%;
+    width: 66%;
+  }
 }
 
-@media only screen and (min-width: 500px) {
-  .card__img {
-    background-image: url(../images/image-product-desktop.jpg);
-    background-position: center;
-    width: 50%;
-    height: auto;
+@media only screen and (min-width: 1500px) {
+  .card {
+    height: 50%;
+    width: 33%;
   }
+}
+
+.card__img__container {
+  width: 100%;
+}
+
+@media only screen and (min-width: 1000px) {
+  .card__img__container {
+    width: 50%;
+  }
+}
+
+.card__img {
+  min-width: 100%;
+  min-height: 100%;
+  height: 30vh;
+  object-fit: cover;
+  display: block;
 }
 
 .card__info {
@@ -65,7 +82,7 @@ body {
   padding: 5% 7%;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 1000px) {
   .card__info {
     max-width: 50%;
   }
@@ -109,10 +126,6 @@ body {
   font-weight: bold;
   color: var(--white);
   /* Used because backdrop-filter doesn't take in account the border-radius*/
-  overflow: hidden;
-}
-
-.card__buy-filter {
   padding: 1rem;
   display: flex;
   align-items: center;
@@ -120,6 +133,6 @@ body {
   gap: 1rem;
 }
 
-.card__buy-filter:hover, .card__buy-button:focus .card__buy-filter {
-  backdrop-filter: brightness(40%);
+.card__buy-button:hover, .card__buy-button:focus {
+  background-color: var(--primary-color-selected);
 }
