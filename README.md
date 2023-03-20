@@ -68,7 +68,7 @@ Get more comfortable with the `@media at-rules`.
 
 ## Author
 
-Created with :heart: by [Kutu](https://kutu-dev.github.io/).
+Created with :heart: by [Kutu](https://kutu-dev.github.io).
 
 > - GitHub - [kutu-dev](https://github.com/kutu-dev)
 > - Twitter - [@kutu_dev](https://twitter.com/kutu_dev)
